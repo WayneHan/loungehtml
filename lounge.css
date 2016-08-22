@@ -3,15 +3,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     /*line-height: 1.6em;*/
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
-    margin-top: 10px;
+    margin: 10px 20% 5px 20%;
 }
 
 h1, h2{
     border-bottom: 1px solid black;
     color: #007e7e;
+    margin-bottom: 8px;
 }
 
 h1{
@@ -22,26 +20,16 @@ h2{
     font-size: 120%;
 }
 
-a{
-    font-weight: 500;
-    color: darkgoldenrod;
-    text-decoration: underline;
-}
-
 #guarantee{
     padding: 25px;
     padding-left: 86px;
     margin: 30px;
     margin-right: 180px;
 
-    background-color: #a7cece;
-    background-image: url(images/background.gif);
-    background-repeat: no-repeat;
+    background: url(images/background.gif) no-repeat #a7cece;
     background-position: top left;
 
-    border-style: dashed;
-    border-width: 1px;
-    border-color: white;
+    border: 1px dashed white;
     border-radius: 25px;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,4 +37,61 @@ a{
     color: #444444;
     font-style: italic;
     line-height: 1.9em;
+}
+
+#explixirs{
+    width: 300px;
+
+    border: thin dashed #007e7e;
+
+    padding: 0px 20px 20px 20px;
+    margin: 10px 0px 15px 200px;
+
+    text-align: center;
+
+    background: url(images/cocktail.gif) repeat-x;
+}
+
+#explixirs h2{
+    border-bottom: none;
+    color: black;
+}
+
+#explixirs h3{
+    color: #d12c47;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.cd{
+    font-style: italic;
+}
+
+.artists{
+    font-weight: 600;
+}
+
+#legal{
+    text-align: center;
+
+    margin-top: 70px;
+}
+
+a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a :link{
+    color: darkgoldenrod;
+}
+
+a :visited{
+    color: darkslategray;
+}
+
+a :hover{
+    color: red;
 }
